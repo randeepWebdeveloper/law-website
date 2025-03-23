@@ -1,0 +1,58 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.main{
+    background-color: rgb(226, 230, 237);
+    height: 600px;
+}
+
+
+
+
+.headlinezero i{
+    color: red;
+}
+.headlinezero>.conseller{
+    color: red;
+}
+
+.headlinezero a{
+    text-decoration: none;
+    color: rgb(30, 19, 19);
+}
+
+
+
+
+
+
+
+.headlinetwo a{
+    text-decoration: none;
+    color: black;
+}
+
+
+/* ============navbar second sectio======== */
+
+.main2{
+    background-color: #fff;
+
+}
+
+.btnmrt{
+    margin: 11px 0px; 
+}
+
+.loginbtn{
+    display: flex;
+    justify-content: end !important;
+
+    margin: auto;
+}
+
+
+
+
