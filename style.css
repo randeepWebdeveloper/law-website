@@ -65,8 +65,9 @@
 .lawent ul li{
     text-decoration: none ;
     border: 0.1px solid rgb(240, 240, 240);
-    margin: 10px 0px;
+    margin: 10px 5px;
     width: 200px;
+    list-style-type: none;
 }
 
 .box{
