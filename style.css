@@ -81,7 +81,7 @@
 .submenu-lawentrace {
     position: absolute;
     right: 0;
-    width: calc(100% - 263px);
+    
     top: 20px;
     border-left: solid 1px #a9b1b8;
     background-color: #fff;

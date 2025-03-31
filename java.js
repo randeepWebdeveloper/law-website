@@ -1,34 +1,62 @@
- let onlineclass = document.querySelectorAll('.onlineclasspt');
- let onlineclass1 = onlineclass[0];
- let  offlineclass = onlineclass[1];
- let testseries = onlineclass[2];
- let studymaterial = onlineclass[3];
+//  let onlineclass = document.querySelectorAll('.onlineclasspt');
+//  let onlineclass1 = onlineclass[0];
+//  let  offlineclass = onlineclass[1];
+//  let testseries = onlineclass[2];
+//  let studymaterial = onlineclass[3];
 
- let submenu = document.querySelector('.submenu-lawentrace');
+//  let submenu = document.querySelector('.submenu-lawentrace');
 
 
- onlineclass1.addEventListener('mouseenter',
-    () => {
-        submenu.style.display = 'block';
-    }
- )
+//  onlineclass1.addEventListener('mouseenter',
+//     () => {
+//         submenu.display = 'block';
+//     }
+//  )
 
- offlineclass.addEventListener('mouseenter',
+//  offlineclass.addEventListener('mouseenter',
+//     () =>{
+//         alert('offlineclass');
+//     }
+//  )
+
+
+//  testseries.addEventListener('mouseenter',
+//     () =>{
+//         alert('testseries');
+//     }
+//  )
+
+
+//  studymaterial.addEventListener('mouseenter',
+//     () =>{
+//         alert('studymaterial');
+//     }
+//  )
+
+
+
+$('.onlineclasspt:nth-child(1)').mouseenter(
     () =>{
-        alert('offlineclass');
+        $('.submenu-lawentrace').css('display','block');
     }
- )
 
+    
+)
 
- testseries.addEventListener('mouseenter',
+$('.onlineclasspt:nth-child(2)').mouseenter(
     () =>{
-        alert('testseries');
+        $('.submenu-lawentrace').css('color','red');
     }
- )
+)
 
-
- studymaterial.addEventListener('mouseenter',
+$('.onlineclasspt:nth-child(3)').mouseenter(
     () =>{
-        alert('studymaterial');
+        $('.submenu-lawentrace').css('background-color','blue');
     }
- )
+)
+
+$('.onlineclasspt:nth-child(4)').mouseenter(
+    () =>{
+        $('.submenu-lawentrace').css('color','green');
+    }
+)

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    
+
+   
+
+    .main{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    img{
+        width: 50%;
+        height: 50%;
+    }
+
+    .main2{
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid black;
+        color: white;
+    }
+</style>
+<body>
+    <div class="main">
+        <img src="mt.jpg" alt="">
+    </div>
+    <img class="main2" src="" alt="">
+        
+        
+    
+</body>
+<script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+<script>
+       
+    
+       
+    let a = $('img').attr('src');
+    console.log(a);
+
+    let b = $('.main2').attr('src', a);
+    console.log(b);
+
+
+    
+
+    
+</script>
+</html>
